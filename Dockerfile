@@ -1,3 +1,5 @@
 FROM node:alpine
 
-RUN npm install -g aws-cdk
+LABEL maintainer="Vladimir Lukyanov"
+
+RUN npm i -g aws-cdk@latest typescript@latest @types/node@latest
