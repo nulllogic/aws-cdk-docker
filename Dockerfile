@@ -1,7 +1,6 @@
 # Multistage Docker build
 FROM node:alpine as builder
-
-LABEL maintainer="Vladimir Lukyanov"
+MAINTAINER Vladimir Lukyanov <vladimir@liikyanov.com>
 
 # Installing Core Frameworks
 RUN apk add --update nodejs npm && \
