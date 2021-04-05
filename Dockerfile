@@ -2,6 +2,8 @@
 FROM node:alpine as builder
 MAINTAINER Vladimir Lukyanov <vladimir@liikyanov.com>
 
+# test 1
+
 # Installing Core Frameworks
 RUN apk add --update nodejs npm && \
     npm install -g typescript && \
